@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +13,49 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.search_field {
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+.App {
+  text-align: center;
+}
+
+.container{
+  max-width: 900px !important;
+  margin-top: 70px;
+}
+
+
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
+
+
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+.add_button{
+  margin-bottom: 20px;
 }
